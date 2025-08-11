@@ -107,7 +107,7 @@ class Loader(torch.utils.data.Dataset):
         print(f"{world.dataset} is ready to go")
         
 
-        self.ii_path = path + '/断点.txt'  
+        self.ii_path = path + '/checkpoint.txt'
 
         self.prepare_training_edges()
     @property
