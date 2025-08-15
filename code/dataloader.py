@@ -109,7 +109,6 @@ class Loader(torch.utils.data.Dataset):
 
         self.ii_path = path + '/checkpoint.txt'
 
-        self.prepare_training_edges()
     @property
     def n_users(self):
         return self.n_user
