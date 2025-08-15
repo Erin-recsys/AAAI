@@ -57,7 +57,7 @@ class LightGCN(nn.Module):
         self.f = nn.Sigmoid()
         self.Graph = self.dataset.getSparseGraph()
         print(f"lgn is already to go(dropout:{self.config['dropout']})")
-        print(f"Graph的shape{self.Graph.shape}")
+        print(f"Graph shape{self.Graph.shape}")
 
         self.special_interactions = {}
         self.special_weights = {}  
